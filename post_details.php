@@ -18,6 +18,7 @@ if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     echo "<html>";
     echo "<head>
+        <link rel='icon' href='./images/logo.jpeg' type='image/x-icon'>
         <title>" . $row["name"] . "</title>
         <link href='https://fonts.googleapis.com/css2?family=Lexend:wght@500;700&family=Poppins&display=swap' rel='stylesheet'>
         <style>
