@@ -1,6 +1,6 @@
 # 🍽️ CookScript
 
-**CookScript** is a lightweight, no-database recipe sharing platform built using **PHP**, **SQL**, **HTML**, and **CSS**. It allows users to view, share, and explore a collection of recipes through a simple and elegant interface — perfect for food lovers and beginner web developers!
+**CookScript** is a lightweight recipe sharing platform built using **PHP**, **SQL**, **HTML**, and **CSS**. It allows users to view, share, and explore a collection of recipes through a simple and elegant interface — perfect for food lovers and beginner web developers!
 
 ---
 
