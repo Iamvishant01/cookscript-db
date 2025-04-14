@@ -11,7 +11,6 @@
 </head>
 <body>
     <style>
-        /* Inner CSS for Explore Page */
         body {
       font-family: 'Poppins', sans-serif;
       margin: 0;

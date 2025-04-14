@@ -1,22 +1,18 @@
 <?php
-// Database connection
 $servername = "localhost";
-$username = "root"; // replace with your database username
-$password = ""; // replace with your database password
-$dbname = "cookscript-recipes"; // your database name
+$username = "root"; 
+$password = ""; 
+$dbname = "cookscript-recipes"; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// SQL query to retrieve data
 $sql = "SELECT id, name, description FROM recipes";
 $result = $conn->query($sql);
 
-// Display posts
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         echo "<div class='post' onclick='window.location.href=\"post_details.php?id=" . $row["id"] . "\"'>";

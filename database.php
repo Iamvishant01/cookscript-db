@@ -2,7 +2,6 @@
 $UserName = $_POST['username'];
 $UserMail = $_POST['useremail'];
 
-// Connection
 $conn = new mysqli('localhost', 'root', '', 'cookscript');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -11,10 +10,8 @@ if ($conn->connect_error) {
     $stmt->bind_param("ss", $UserName, $UserMail);
     
     if ($stmt->execute()) {
-        // Redirect to explore.html using JavaScript
         echo "<script>window.location.href = 'create.html';</script>";
     } else {
-        // Show error alert
         echo "<script>alert('Registration failed! Please try again.');</script>";
     }
     

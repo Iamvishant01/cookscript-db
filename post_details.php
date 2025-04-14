@@ -72,8 +72,6 @@ if ($result->num_rows > 0) {
     echo "<h1>" . $row["name"] . "</h1>";
     echo "<p>" . nl2br($row["description"]) . "</p>";
     echo "</div>";
-
-    // Floating Back Button
     echo "<div class='button-container'>
             <a href='./explore.php'>
                 <button type='button' class='btn'>← Back </button>
