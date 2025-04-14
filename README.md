@@ -17,9 +17,11 @@
 
 ## 📸 Screenshots
 
-<img src="screenshots/homepage.png" width="100%">
-<img src="screenshots/recipe-page.png" width="100%">
-<img src="screenshots/add-recipe.png" width="100%">
+![image](https://github.com/user-attachments/assets/b65fcf09-0aca-4b66-98c2-a5b795b988bc)
+![image](https://github.com/user-attachments/assets/77e11bb0-bec7-4756-9663-3197e43b2f8c)
+![image](https://github.com/user-attachments/assets/88b59582-c1d1-4e1f-a001-0b13a5ab99af)
+
+
 
 ---
 
